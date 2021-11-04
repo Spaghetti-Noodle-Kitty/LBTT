@@ -30,11 +30,12 @@
 
 #### How it works
 > For a functional setup, there needs to be atleast one client, one sensor and one broker
+> 
 > The LBTT infrastructure works by letting the sensors send messages to the broker, containing a hierarchy and the current value read by the sensor.
 > 
 > The hierarchy plays a key role, as clients can request a subscription to a hierarchy on the broker.
 > If an update is received by the broker, it will check it's subscription list and get every client who is subscribed to the hierarchy of the update.
-> The Broker will then send the updated value to all subscribed clients
+> The Broker will then send the updated value to all subscribed clients.
 >
 > The full update cycle would look something like this:<br/>
 > ``` Client =[subto /x/y]> Broker```<br/>
