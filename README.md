@@ -32,9 +32,9 @@
 > The Broker will then send the updated value to all subscribed clients
 >
 > The full update cycle would look something like this:
-> ``` Client =[subto /x/y]> Broker```
-> ``` Sensor =[ "Z"|/x/y ]> Broker```
-> ``` Broker =[    "Z"   ]> Client```
+> ``` Client =[subto /x/y]> Broker```<br/>
+> ``` Sensor =[ "Z"|/x/y ]> Broker```<br/>
+> ``` Broker =[    "Z"   ]> Client```<br/>
 
 #### WIP
 > * Retain option (Broker caches updated value)
