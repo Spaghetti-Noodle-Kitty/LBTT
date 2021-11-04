@@ -4,7 +4,7 @@
 ## What does LBTT do?
 > LBTT attempts to implement a client/broker/sensor infrastructure.
 > 
-> You can think of LBTT like it is MQTT's "slower" bastard child it had whilst blackout drunk.
+> You can think of LBTT like it is MQTT's "slower" bastard child it concieved whilst blackout drunk.
 > 
 > LBTT is supposed to be an alternative to MQTT but it is far from that, LBTT is mostly a pet-project of mine used for learning purposes on my part.
 
