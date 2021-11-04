@@ -3,24 +3,29 @@
 
 ## What does LBTT do?
 > LBTT attempts to implement a client/broker/sensor infrastructure.
+> 
 > You can think of LBTT like it is MQTT's "slower" bastard child it had whilst blackout drunk.
 > 
 > LBTT is supposed to be an alternative to MQTT but it is far from that, LBTT is mostly a pet-project of mine used for learning purposes on my part.
 
 ## Why did you create this?
 > I was bored to hell and frustrated with MQTT's dev packages, so I wanted to learn more about MQTT and how it works.
+> 
 > Thus I created this fucked up amalgamation of code to just... learn a bit.
 
 ## Documentation
 #### Usage
 > LBTT is programmed fully in C#
+> 
 > The communication between the clients is handled through TCP and .Net.Sockets
 >
 > To use LBTT, you need to pass a few arguments to the .exe
 > [IPAddress] Fairly self explanatory, sets which IP the local instance of LBTT should use.
 > [Arguments] Here is where the actual selection of the role 
 > * "-c" Sets the instances role to client
+> 
 > * "-b" Sets the instances role to broker
+>
 > * "-s" Sets the instances role to sensor
 
 #### How it works
