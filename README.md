@@ -20,7 +20,9 @@
 > The communication between the clients is handled through TCP and .Net.Sockets
 >
 > To use LBTT, you need to pass a few arguments to the .exe
+> 
 > [IPAddress] Fairly self explanatory, sets which IP the local instance of LBTT should use.
+> 
 > [Arguments] Here is where the actual selection of the role 
 > * "-c" Sets the instances role to client
 > 
